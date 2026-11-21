@@ -84,8 +84,6 @@ Small PRs get read first. For anything big, open an issue before you start.
   audiobooks and the rest. Each app stands on its own; no home server required.
 - **iPhone.** Native SwiftUI, starting with `xx-chat`.
 
-Both are MPL-2.0 too.
-
 ---
 
 ## 🌀 Also from Sphenisca Regia
