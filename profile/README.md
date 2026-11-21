@@ -1,18 +1,18 @@
-<p align="center">
-  <img src="images/logomark.svg" alt="PiercingXX logomark" width="96">
-</p>
-
 <h1 align="center">Sphenisca Regia</h1>
 
+<p align="center">Software that answers to you. Phones, apps and games, built local-first.</p>
+
 <p align="center">
-  A Linux phone with no icon grids and nothing phoning home.
+  <a href="https://spheniscaregia.com"><b>spheniscaregia.com</b></a> ·
+  <a href="https://spheniscaregia.com/os/"><b>SpheniscaOS</b></a> ·
+  <a href="https://github.com/Sphenisca-Regia/SpheniscaOS/blob/main/CONTRIBUTING.md"><b>Contribute</b></a>
 </p>
 
 ---
 
-## 📱 xx-os
+## 📱 SpheniscaOS
 
-**[xx-os](https://github.com/Sphenisca-Regia/xx-os)** is a complete, minimal phone OS for Linux phones: the
+**[SpheniscaOS](https://github.com/Sphenisca-Regia/SpheniscaOS)** is a complete, minimal phone OS for Linux phones: the
 **XX-WM** shell plus nineteen apps that cover what a phone actually gets used for.
 Text-first, gesture-driven, AMOLED black. It installs onto an existing mobile
 distro. It is not a distro, and it is not GNOME with a theme.
@@ -32,7 +32,8 @@ distro. It is not a distro, and it is not GNOME with a theme.
   360×720, usable down to 320 px wide.
 - **Local-first.** Config is plain text under `~/.config/xx-wm/`. Captions run on
   the device. Vitals, notes and audiobooks sync to your own server.
-- **GPL-3.0.**
+- **MPL-2.0**, the same licence as Regia Engine. A few upstream parts (the
+  keyboard, a GNOME Calls port) stay GPL; the repo's `THIRD_PARTY_NOTICES.md` lists them.
 
 ### 🧰 What's in the box
 
@@ -56,7 +57,7 @@ One person built this. It needs more hands, and more phones.
   running phoc. Open an issue with the device, the OS and what broke.
 - **Pixel 9 bring-up.** Tensor G4 on mainline Linux: display, touch, modem,
   audio. If you've booted a `zumapro` phone, we want to hear from you.
-  The plan is in [`docs/pixel-9-bringup.md`](https://github.com/Sphenisca-Regia/xx-os/blob/main/docs/pixel-9-bringup.md).
+  The plan is in [`docs/pixel-9-bringup.md`](https://github.com/Sphenisca-Regia/SpheniscaOS/blob/main/docs/pixel-9-bringup.md).
 - **xxwm, in Rust.** The river window manager behind the phone layout and the
   docked desktop.
 - **Apps, in Python + GTK4.** Fix what's there, or take a port that's next in line:
@@ -67,7 +68,7 @@ One person built this. It needs more hands, and more phones.
 Get set up:
 
 ```sh
-git clone https://github.com/Sphenisca-Regia/xx-os && cd xx-os
+git clone https://github.com/Sphenisca-Regia/SpheniscaOS && cd SpheniscaOS
 python3 -m venv --system-site-packages .venv && .venv/bin/pip install pytest ruff
 sh scripts/check-all.sh          # every project's tests + lint
 sh scripts/check-all.sh txxt     # just one
@@ -83,6 +84,17 @@ Small PRs get read first. For anything big, open an issue before you start.
   audiobooks and the rest. Each app stands on its own; no home server required.
 - **iPhone.** Native SwiftUI, starting with `xx-chat`.
 
+Both are MPL-2.0 too.
+
 ---
 
-<p align="center"><sub>Built by <a href="https://github.com/PiercingXX">PiercingXX</a>. Opinionated on purpose.</sub></p>
+## 🌀 Also from Sphenisca Regia
+
+- **[Regia Engine](https://regiaengine.com)**: our open-source Rust game engine, built for people and AI agents.
+  It has its own org: [Regia-Engine](https://github.com/Regia-Engine).
+- **Direct Order 27**: our first game, built on Regia Engine. Hover-tank strategy and first-person combat,
+  coming to Steam.
+
+---
+
+<p align="center"><sub>© 2026 Sphenisca Regia LLC · <a href="https://spheniscaregia.com">spheniscaregia.com</a> · Opinionated on purpose.</sub></p>
