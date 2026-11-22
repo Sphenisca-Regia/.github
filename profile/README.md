@@ -90,7 +90,7 @@ Small PRs get read first. For anything big, open an issue before you start.
 
 - **[Regia Engine](https://regiaengine.com)**: our open-source Rust game engine, built for people and AI agents.
   It has its own org: [Regia-Engine](https://github.com/Regia-Engine).
-- **Direct Order 27**: our first game, built on Regia Engine. Hover-tank strategy and first-person combat,
+- **[Direct Order 27](https://directorder27.com)**: our first game, built on Regia Engine. Hover-tank strategy and first-person combat,
   coming to Steam.
 
 ---
